@@ -460,17 +460,17 @@ $EndComp
 Text Label 2600 3350 0    60   ~ 0
 ADC_VREF
 Text Label 2600 3150 0    60   ~ 0
-AIN0
+VMON
 Text Label 2600 3550 0    60   ~ 0
 AIN1
 Text Label 2600 3850 0    60   ~ 0
-AIN2
-Text Label 2600 4050 0    60   ~ 0
 AIN3
-Text Label 2600 4150 0    60   ~ 0
-AIN4
-Text Label 2600 4250 0    60   ~ 0
+Text Label 2600 4050 0    60   ~ 0
 AIN5
+Text Label 2600 4150 0    60   ~ 0
+AIN6
+Text Label 2600 4250 0    60   ~ 0
+AIN7
 $Comp
 L GNDA #PWR04
 U 1 1 55A6F7B9
@@ -2231,18 +2231,18 @@ ADC_VREF
 $Comp
 L R R23
 U 1 1 55AFC66C
-P 10150 1450
-F 0 "R23" V 10230 1450 50  0000 C CNN
-F 1 "22" V 10150 1450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402_HandSoldering" V 10080 1450 30  0001 C CNN
-F 3 "" H 10150 1450 30  0000 C CNN
-	1    10150 1450
+P 9700 1450
+F 0 "R23" V 9780 1450 50  0000 C CNN
+F 1 "10k" V 9700 1450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402_HandSoldering" V 9630 1450 30  0001 C CNN
+F 3 "" H 9700 1450 30  0000 C CNN
+	1    9700 1450
 	0    1    1    0   
 $EndComp
-Text Label 9700 1450 0    60   ~ 0
-A0
+Text Label 9100 1450 0    60   ~ 0
+VIN_SAFE
 Text Label 10400 1450 0    60   ~ 0
-AIN0
+VMON
 $Comp
 L R R24
 U 1 1 55AFC78E
@@ -2270,9 +2270,9 @@ F 3 "" H 10150 2850 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 9700 2850 0    60   ~ 0
-A2
+A3
 Text Label 10400 2850 0    60   ~ 0
-AIN2
+AIN3
 $Comp
 L R R26
 U 1 1 55AFC8BE
@@ -2285,9 +2285,9 @@ F 3 "" H 11250 1450 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 10800 1450 0    60   ~ 0
-A3
+A5
 Text Label 11500 1450 0    60   ~ 0
-AIN3
+AIN5
 $Comp
 L R R27
 U 1 1 55AFC8C8
@@ -2300,9 +2300,9 @@ F 3 "" H 11250 2150 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 10800 2150 0    60   ~ 0
-A4
+A6
 Text Label 11500 2150 0    60   ~ 0
-AIN4
+AIN6
 $Comp
 L R R28
 U 1 1 55AFE014
@@ -2315,9 +2315,9 @@ F 3 "" H 11250 2850 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 10800 2850 0    60   ~ 0
-A5
+A7
 Text Label 11500 2850 0    60   ~ 0
-AIN5
+AIN7
 $Comp
 L C C26
 U 1 1 55B06051
@@ -2475,11 +2475,11 @@ $EndComp
 Text Label 14500 5000 0    60   ~ 0
 CPU_RESETn
 Text Label 2600 3450 0    60   ~ 0
-AIN6
+AIN0
 Text Label 2600 3650 0    60   ~ 0
-AIN7
+AIN2
 Text Label 2600 3950 0    60   ~ 0
-AIN8
+AIN4
 $Comp
 L R R32
 U 1 1 55B30A07
@@ -2492,9 +2492,9 @@ F 3 "" H 12350 1450 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 11900 1450 0    60   ~ 0
-A6
+A0
 Text Label 12600 1450 0    60   ~ 0
-AIN6
+AIN0
 $Comp
 L R R33
 U 1 1 55B30A11
@@ -2507,9 +2507,9 @@ F 3 "" H 12350 2150 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 11900 2150 0    60   ~ 0
-A7
+A2
 Text Label 12600 2150 0    60   ~ 0
-AIN7
+AIN2
 $Comp
 L R R34
 U 1 1 55B30A1B
@@ -2522,9 +2522,9 @@ F 3 "" H 12350 2850 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 11900 2850 0    60   ~ 0
-A8
+A4
 Text Label 12600 2850 0    60   ~ 0
-AIN8
+AIN4
 $Comp
 L C C43
 U 1 1 55B30A25
@@ -5239,9 +5239,9 @@ Wire Wire Line
 Wire Wire Line
 	9700 2150 10000 2150
 Wire Wire Line
-	10400 1450 10300 1450
+	9850 1450 10400 1450
 Wire Wire Line
-	9700 1450 10000 1450
+	9100 1450 9550 1450
 Wire Wire Line
 	10400 750  10300 750 
 Wire Wire Line
@@ -6063,4 +6063,29 @@ Wire Wire Line
 Text Label 2600 5750 0    60   ~ 0
 EXTCLK
 NoConn ~ 7000 2150
+$Comp
+L R R5
+U 1 1 5667791F
+P 10000 1650
+F 0 "R5" V 10080 1650 50  0000 C CNN
+F 1 "1k" V 10000 1650 50  0000 C CNN
+F 2 "Logeek_MK2:R_0402_HandSoldering" V 9930 1650 30  0001 C CNN
+F 3 "" H 10000 1650 30  0000 C CNN
+	1    10000 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDD #PWR0114
+U 1 1 56677B15
+P 10000 1800
+F 0 "#PWR0114" H 10000 1550 50  0001 C CNN
+F 1 "GNDD" H 10000 1650 50  0000 C CNN
+F 2 "" H 10000 1800 60  0000 C CNN
+F 3 "" H 10000 1800 60  0000 C CNN
+	1    10000 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 1500 10000 1450
+Connection ~ 10000 1450
 $EndSCHEMATC
