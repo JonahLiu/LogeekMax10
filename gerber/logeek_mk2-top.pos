@@ -1,5 +1,5 @@
-### Module positions - created on 2015/12/7 0:11:38 ###
-### Printed by Pcbnew version kicad (2015-07-11 BZR 5925, Git c291b88)-product
+### Module positions - created on 07/12/2015 14:41:49 ###
+### Printed by Pcbnew version kicad (2015-07-08 BZR 5908, Git 901e961)-product
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref    Val                  Package         PosX       PosY        Rot     Side
@@ -59,6 +59,7 @@ D5       LED TRUE GREEN   LED-0603           12.7000    29.8450       0.0    top
 D6       TVS 10 V         R_0402_HandSolde    2.5400    29.8450     180.0    top
 D7       1N5819WS         SOD-123             3.8100    15.2400       0.0    top
 D8       1N4148WS         SOD-323             9.5250    27.9400      90.0    top
+F1       500mA            R_0603_HandSolde    6.4770    29.8450     180.0    top
 FB1      FILTER           R_0603             55.8800    41.9100      90.0    top
 FB2      FILTER           R_0603             41.9100    11.4300      90.0    top
 FB3      FILTER           R_0603             49.5300    11.4300      90.0    top
