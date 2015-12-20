@@ -1,5 +1,5 @@
-### Module positions - created on 07/12/2015 14:41:49 ###
-### Printed by Pcbnew version kicad (2015-07-08 BZR 5908, Git 901e961)-product
+### Module positions - created on 2015/12/21 0:48:51 ###
+### Printed by Pcbnew version kicad (2015-07-11 BZR 5925, Git c291b88)-product
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref    Val                  Package         PosX       PosY        Rot     Side
@@ -19,13 +19,13 @@ C14      0.1uF            C_0402             41.9100    41.9100     270.0    top
 C15      0.1uF            C_0402             49.5300    41.9100     270.0    top
 C16      0.1uF            C_0402             55.8800    13.9700     270.0    top
 C17      0.1uF            C_0402             31.7500    21.5900     180.0    top
-C18      10uF             C_0805              6.3500    19.0500     270.0    top
-C19      0.1uF            C_0402              9.5250    24.1300     270.0    top
-C20      22uF             C_0805             13.9700    17.7800       0.0    top
-C21      22uF             C_0805             13.9700     6.9850     180.0    top
-C22      0.1uF            C_0402             21.5900    12.7000     180.0    top
+C18      10uF             C_1206              2.5400    15.8750     270.0    top
+C19      0.1uF            C_0402              6.3500    22.8600     270.0    top
+C20      22uF             C_0805             15.2400    18.4150     270.0    top
+C21      22uF             C_0805             17.1450     6.9850     270.0    top
+C22      0.1uF            C_0402             17.1450    11.4300     270.0    top
 C23      0.1uF            C_0402             57.1500    13.9700     270.0    top
-C24      22uF             C_0805             22.8600    10.1600     180.0    top
+C24      22uF             C_0805             22.2250    12.7000     180.0    top
 C25      0.1uF            C_0402             17.7800    15.2400     180.0    top
 C26      0.1uF            C_0402             35.5600    13.9700     270.0    top
 C27      1nF              C_0402             34.2900    13.9700     270.0    top
@@ -40,36 +40,31 @@ C35      1nF              C_0402             44.4500    13.9700     270.0    top
 C36      1nF              C_0402             45.7200    13.9700     270.0    top
 C37      1nF              C_0402             46.9900    13.9700     270.0    top
 C38      0.1uF            C_0402             31.7500    37.4650     180.0    top
-C39      10pF             C_0402             12.7000    33.6550       0.0    top
+C39      10pF             C_0402             15.2400    33.6550       0.0    top
 C40      0.1uF            C_0402             31.7500    35.5600     180.0    top
 C41      0.1uF            C_0402             31.7500    29.2100       0.0    top
 C42      0.1uF            C_0402             15.2400    29.8450     180.0    top
 C43      1nF              C_0402             36.8300    13.9700     270.0    top
 C44      1nF              C_0402             39.3700    13.9700     270.0    top
 C45      1nF              C_0402             43.1800    13.9700     270.0    top
-C46      0.1uF            C_0402             15.2400    45.7200     180.0    top
-C47      100uF            TantalC_SizeB_EI   29.2100    13.9700      90.0    top
+C46      0.1uF            C_0402             12.7000    44.4500     180.0    top
 C48      0.1uF            C_0402              2.5400    27.9400       0.0    top
 C49      0.1uF            C_0402             59.6900    27.9400      90.0    top
-D1       1N5819WS         SOD-123             9.5250    19.6850     270.0    top
-D2       1N5819WS         SOD-123            10.1600    15.2400       0.0    top
-D3       1N5819WS         SOD-123            18.4150     4.4450     270.0    top
-D4       1N4148WS         SOD-323            24.7650    12.7000       0.0    top
-D5       LED TRUE GREEN   LED-0603           12.7000    29.8450       0.0    top
+D1       B230A            Diode-SMA_Standa    6.9850    17.7800     270.0    top
+D3       B230A            Diode-SMA_Standa   22.2250     3.1750       0.0    top
+D5       LED GREEN        LED-0603           10.1600    29.8450       0.0    top
 D6       TVS 10 V         R_0402_HandSolde    2.5400    29.8450     180.0    top
-D7       1N5819WS         SOD-123             3.8100    15.2400       0.0    top
-D8       1N4148WS         SOD-323             9.5250    27.9400      90.0    top
-F1       500mA            R_0603_HandSolde    6.4770    29.8450     180.0    top
 FB1      FILTER           R_0603             55.8800    41.9100      90.0    top
 FB2      FILTER           R_0603             41.9100    11.4300      90.0    top
 FB3      FILTER           R_0603             49.5300    11.4300      90.0    top
 FB4      FILTER           R_0603             51.4350    13.9700     270.0    top
 FB5      FILTER           R_0603             12.7000    42.5450     180.0    top
-L1       10uH             SELF-WE-TPC_M      13.9700    22.8600       0.0    top
-L2       4.7uH            SELF-WE-TPC_M      22.8600     5.0800       0.0    top
+L1       10uH             SELF-WE-TPC_M      12.7000    23.4950       0.0    top
+L2       4.7uH            SELF-WE-TPC_M      22.2250     8.2550       0.0    top
 P9       USB_OTG          USB_Micro-B         2.5400    38.1000     270.0    top
-Q2       SI2303CDS        SOT-23              3.1750    19.6850       0.0    top
-R1       330              R_0402_HandSolde   12.7000    27.9400     180.0    top
+Q1       SI2302CDS        SOT-23             11.4300    18.4150       0.0    top
+Q2       SI2303CDS        SOT-23              6.3500    29.2100       0.0    top
+R1       330              R_0402_HandSolde   12.7000    29.8450     180.0    top
 R2       10k              R_0402_HandSolde   60.9600    30.4800      90.0    top
 R3       10k              R_0402_HandSolde   27.9400    19.6850       0.0    top
 R4       10k              R_0402_HandSolde   31.7500    27.3050     180.0    top
@@ -80,15 +75,13 @@ R8       10k              R_0402_HandSolde   48.2600    13.9700      90.0    top
 R10      10k              R_0402_HandSolde   27.9400    21.5900       0.0    top
 R11      10k              R_0402_HandSolde   31.7500    23.4950       0.0    top
 R12      10k              R_0402_HandSolde   31.7500    25.4000       0.0    top
-R13      22               R_0402_HandSolde   15.2400    31.7500     180.0    top
-R14      22               R_0402_HandSolde   12.7000    31.7500     180.0    top
-R15      100k             R_0402_HandSolde    2.5400    22.8600       0.0    top
-R16      49.9k            R_0402_HandSolde    6.3500    27.9400     180.0    top
-R17      9.53k            R_0402_HandSolde    2.5400    25.4000     180.0    top
-R18      100k             R_0402_HandSolde   13.9700    10.1600       0.0    top
+R15      100k             R_0402_HandSolde    2.5400    19.6850     180.0    top
+R16      49.9k            R_0402_HandSolde    6.3500    26.0350     180.0    top
+R17      9.53k            R_0402_HandSolde    2.5400    26.0350     180.0    top
+R18      100k             R_0402_HandSolde   13.9700     8.2550     180.0    top
 R19      10k              R_0402_HandSolde   62.2300    10.2870       0.0    top
-R20      49.9k            R_0402_HandSolde   13.9700    15.2400     180.0    top
-R21      16.2k            R_0402_HandSolde   13.9700    12.7000     180.0    top
+R20      49.9k            R_0402_HandSolde   14.6050    15.2400     180.0    top
+R21      16.2k            R_0402_HandSolde   11.4300    15.2400     180.0    top
 R22      22               R_0402_HandSolde   36.8300    11.4300     270.0    top
 R23      10k              R_0402_HandSolde   35.5600    11.4300     270.0    top
 R24      22               R_0402_HandSolde   39.3700    11.4300     270.0    top
@@ -97,8 +90,7 @@ R26      22               R_0402_HandSolde   45.7200    11.4300     270.0    top
 R27      22               R_0402_HandSolde   46.9900    11.4300     270.0    top
 R28      22               R_0402_HandSolde   48.2600    11.4300     270.0    top
 R29      2.2k             R_0402_HandSolde   23.4950    21.5900     180.0    top
-R30      2.2k             R_0402_HandSolde   19.6850    21.5900     180.0    top
-R31      1000k            R_0402_HandSolde   15.2400    33.6550     180.0    top
+R30      2.2k             R_0402_HandSolde   19.6850    21.5900       0.0    top
 R32      22               R_0402_HandSolde   38.1000    11.4300     270.0    top
 R33      22               R_0402_HandSolde   40.6400    11.4300     270.0    top
 R34      22               R_0402_HandSolde   44.4500    11.4300     270.0    top
@@ -106,15 +98,14 @@ R35      22               R_0402_HandSolde   59.6900    30.4800     270.0    top
 R36      22               R_0402_HandSolde   60.9600    27.9400     270.0    top
 R37      22               R_0402_HandSolde   59.6900    25.4000     270.0    top
 R38      22               R_0402_HandSolde   60.9600    22.8600     270.0    top
-R39      10k              R_0402_HandSolde   12.7000    44.4500     180.0    top
 R40      10k              R_0402_HandSolde   15.2400    44.4500       0.0    top
 R41      1k               R_0402_HandSolde   15.2400    27.9400     180.0    top
 R42      10k              R_0402_HandSolde   21.5900    15.2400       0.0    top
 R43      0                R_0402_HandSolde   24.7650    15.2400       0.0    top
 R44      10k              R_0402_HandSolde   15.2400    42.5450       0.0    top
 U1       10M08SAE144      TQFP-144EP_20x20   45.7200    27.9400      90.0    top
-U2       MP2359DJ         SOT-23-6            6.3500    24.1300     270.0    top
-U3       MP2359DJ         SOT-23-6           17.7800    11.4300     270.0    top
+U2       MP2359DJ         SOT-23-6            3.1750    22.8600     270.0    top
+U3       MP2359DJ         SOT-23-6           13.9700    11.4300     270.0    top
 U4       24C64            TSSOP-8_4.4x3mm_   21.5900    18.4150     180.0    top
 U5       CY7C68013A-56P   SSOP-56_7.5x18.5   23.4950    33.6550       0.0    top
 U6       W25Q64           SOIJ-8_5.3x5.3mm   62.8650    13.9700     180.0    top
