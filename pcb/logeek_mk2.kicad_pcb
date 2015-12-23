@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew "(2015-07-08 BZR 5908, Git 901e961)-product")
+(kicad_pcb (version 4) (host pcbnew "(2015-07-02 BZR 5871)-product")
 
   (general
     (links 445)
@@ -459,7 +459,7 @@
       (net 14 GNDA))
     (pad 6 thru_hole circle (at 12.7 0) (size 1.7272 1.7272) (drill 0.762) (layers *.Cu *.Mask F.SilkS)
       (net 6 /AREF))
-    (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x06.wrl
+    (model ${KIPRJMOD}/Logeek_MK2.3dshapes/Socket_Strip_Straight_1x06_Red.wrl
       (at (xyz 0.25 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1651,7 +1651,7 @@
       (net 95 /A4))
     (pad 6 thru_hole circle (at 12.7 0) (size 1.7272 1.7272) (drill 0.762) (layers *.Cu *.Mask F.SilkS)
       (net 96 /A5))
-    (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x06.wrl
+    (model ${KIPRJMOD}/Logeek_MK2.3dshapes/Socket_Strip_Straight_1x06_Red.wrl
       (at (xyz 0.25 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1697,7 +1697,7 @@
       (net 13 GNDD))
     (pad 8 thru_hole circle (at 17.78 0) (size 1.7272 1.7272) (drill 0.762) (layers *.Cu *.Mask F.SilkS)
       (net 159 VIN))
-    (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x08.wrl
+    (model ${KIPRJMOD}/Logeek_MK2.3dshapes/Socket_Strip_Straight_1x08_Yellow.wrl
       (at (xyz 0.35 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1743,7 +1743,7 @@
       (net 120 /D1))
     (pad 8 thru_hole circle (at 17.78 0) (size 1.7272 1.7272) (drill 0.762) (layers *.Cu *.Mask F.SilkS)
       (net 121 /D0))
-    (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x08.wrl
+    (model ${KIPRJMOD}/Logeek_MK2.3dshapes/Socket_Strip_Straight_1x08_Blue.wrl
       (at (xyz 0.35 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1789,7 +1789,7 @@
       (net 73 /B1))
     (pad 8 thru_hole circle (at 17.78 0) (size 1.7272 1.7272) (drill 0.762) (layers *.Cu *.Mask F.SilkS)
       (net 74 /B0))
-    (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x08.wrl
+    (model ${KIPRJMOD}/Logeek_MK2.3dshapes/Socket_Strip_Straight_1x08_Blue.wrl
       (at (xyz 0.35 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1835,7 +1835,7 @@
       (net 91 /C1))
     (pad 8 thru_hole circle (at 17.78 0) (size 1.7272 1.7272) (drill 0.762) (layers *.Cu *.Mask F.SilkS)
       (net 92 /C0))
-    (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x08.wrl
+    (model ${KIPRJMOD}/Logeek_MK2.3dshapes/Socket_Strip_Straight_1x08_Blue.wrl
       (at (xyz 0.35 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1885,7 +1885,7 @@
       (net 56 /D9))
     (pad 10 thru_hole circle (at 22.86 0) (size 1.7272 1.7272) (drill 0.762) (layers *.Cu *.Mask F.SilkS)
       (net 57 /D8))
-    (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x10.wrl
+    (model ${KIPRJMOD}/Logeek_MK2.3dshapes/Socket_Strip_Straight_1x10_Blue.wrl
       (at (xyz 0.45 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1935,7 +1935,7 @@
       (net 83 /C9))
     (pad 10 thru_hole circle (at 22.86 0) (size 1.7272 1.7272) (drill 0.762) (layers *.Cu *.Mask F.SilkS)
       (net 84 /C8))
-    (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x10.wrl
+    (model ${KIPRJMOD}/Logeek_MK2.3dshapes/Socket_Strip_Straight_1x10_Blue.wrl
       (at (xyz 0.45 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
