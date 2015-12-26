@@ -30,7 +30,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 0.1524)
     (user_trace_width 0.1524)
     (user_trace_width 0.2032)
     (user_trace_width 0.254)
@@ -2019,7 +2019,7 @@
       (net 13 GNDD))
     (model Connect.3dshapes/JACK_ALIM.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.8 0.8 0.8))
+      (scale (xyz 0.788 0.788 0.788))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2505,9 +2505,9 @@
       (net 16 /RESETn))
     (pad 2 smd rect (at 3.975 2.25) (size 1.55 1.3) (layers F.Cu F.Paste F.Mask)
       (net 13 GNDD))
-    (model Buttons_Switches_ThroughHole.3dshapes/SW_PUSH-12mm.wrl
-      (at (xyz 0 0 -0.03))
-      (scale (xyz 2 2 2))
+    (model ${KIPRJMOD}/Logeek_MK2.3dshapes/SW_PUSH-6mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
